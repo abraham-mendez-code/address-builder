@@ -4,6 +4,37 @@ import java.util.Scanner;
 
 public class AddressBuilder {
 
+    /*
+        Create a Java application named AddressBuilder. You will prompt the user for
+        their Billing and shipping addresses. Instead of changing the value of a string,
+        you will use a StringBuilder to dynamically build the string that holds all
+        the address information. Then print the information to the screen.
+            Please provide the following information:
+            Full name: Grover Smith
+            Billing Street: 123 Main Street
+            Billing City: Middleton
+            Billing State: TX
+            Billing Zip: 75111
+            Shipping Street: 456 Big Sky Blvd
+            Shipping City: Outer Rim
+            Shipping State: TX
+            Shipping Zip: 75333
+        As the user inputs the information you should use the StringBuilder append() method to
+        append the new input to the string.
+
+        Display the customer information
+            Grover Smith
+            Billing Address:
+            123 Main Street
+            Middleton, TX 75111
+            Shipping Address:
+            456 Big Sky Blvd
+            Outer Rim, TX 75333
+        Step 2
+            1. Ensure all your changes are committed and pushed to GitHub
+            2. Send your repository URL to your Instructor
+     */
+
     public static void main(String[] args) {
 
         // Declare and initialize the string builder object to store full name and, billing and shipping address
